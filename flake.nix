@@ -7,12 +7,12 @@
         buildInputs = with pkgs; [
           nil
           nixfmt
-          python310
-          python310Packages.python-lsp-server
-          python310Packages.autopep8
-          python310Packages.evdev
-          # python310Packages.pylint
-          # python310Packages.flake8
+          python311
+          python311Packages.python-lsp-server
+          python311Packages.autopep8
+          python311Packages.evdev
+          # python311Packages.pylint
+          # python311Packages.flake8
         ];
       };
     };
