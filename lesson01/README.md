@@ -19,7 +19,7 @@ h = {"a": 1}      # dictionary[str, int]
 ___
 
 ## 2 Functions
-A function is a block of code which only runs when it is called. You can pass data, known as parameters, into a function: 
+A function is a block of code which only runs when it is called. You can pass data, known as arguments, into a function: 
 ```python
 def greet(name):
   print(f"Hello, {name}")
@@ -191,4 +191,5 @@ In programming, avoid the **illusion of competence**. Just because you can read 
 - [HackerRank](https://www.hackerrank.com/)
 - [LeetCode](https://leetcode.com/)
 
-While projects are the best way to improve at programming, sites like these are a great way to practice and learn new concepts. I recommend starting with CodeWars, as it's the most beginner friendly. HackerRank and LeetCode are more geared towards people grinding for competitive programming competitions or technical interviews.
+While projects are the best way to improve at programming, sites like these are a great way to practice and learn new concepts. I recommend starting with CodeWars, as it's the most beginner friendly. HackerRank and LeetCode are more geared towards people grinding for competitive programming competitions or technical interviews. Try to complete some of the following problems on CodeWars:  
+[CodeWars 'Katas'](https://www.codewars.com/kata/search/my-languages?q=&beta=false&order_by=total_completed%20desc)
