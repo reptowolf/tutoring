@@ -54,9 +54,9 @@ print(5 > 2)      # greater than:   (5 > 2)  == True
 print(5 < 2)      # less than:      (5 < 2)  == False
 
 # boolean operators
-print(True and False)  # and: (True and False) == False
-print(True or False)   # or:  (True or False)  == True
-print(not True)        # not: (not True)       == False
+print(True and False)  # and:       (True and False) == False
+print(True or False)   # or:        (True or False)  == True
+print(not True)        # not:       (not True)       == False
 ```
 ___
 
@@ -192,4 +192,4 @@ In programming, avoid the **illusion of competence**. Just because you can read 
 - [LeetCode](https://leetcode.com/)
 
 While projects are the best way to improve at programming, sites like these are a great way to practice and learn new concepts. I recommend starting with CodeWars, as it's the most beginner friendly. HackerRank and LeetCode are more geared towards people grinding for competitive programming competitions or technical interviews. Try to complete some of the following problems on CodeWars:  
-[CodeWars 'Katas'](https://www.codewars.com/kata/search/my-languages?q=&beta=false&order_by=total_completed%20desc)
+[CodeWars 'Katas'](https://www.codewars.com/kata/search/my-languages?q=&r%5B%5D=-8&beta=false&order_by=total_completed%20desc)

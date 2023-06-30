@@ -13,18 +13,19 @@ https://community.chocolatey.org/packages
 Package managers are one of the main appeals of using something like Linux. On Linux, you can install almost any program with a single command, and it will automatically install all of the dependencies for you. Chocolatey is one of the best options for that on Windows.  
 ___
 
-## 3 Install VSCode, Python, Git, and GH
+## 3 Install VSCode, Python, and Git
 Open a Windows terminal as administrator and run the following command:
 ```powershell
-choco install vscode python git gh
+choco install vscode python git
 ```
-VSCode is a popular code editor, Python is the programming language we'll be using, and Git/GH are programs that we'll use to interact with GitHub. 
+VSCode is a popular code editor, Python is the programming language we'll be using, and Git are programs that we'll use to interact with GitHub. 
 ___
 
 ## 4 Clone the lesson repository
 Right click your desktop and make a new folder called "code", then open a Windows terminal in that folder and run the following commands:
 ```powershell
-gh repo fork exformation/tutoring --clone --public
+# gh repo fork exformation/tutoring --clone --public
+git clone https://github.com/exformation/tutoring.git
 cd tutoring
 code .
 ```
